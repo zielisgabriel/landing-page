@@ -44,6 +44,11 @@ li{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .banner{
     background-image: url(../assets/images/Background_Intro.png);
     background-repeat: no-repeat;
@@ -51,4 +56,8 @@ li{
     background-size: cover;
     height: 100vh;
     padding-inline: 20px;
+}
+
+.background-standard{
+    background-color: var(--gray-200);
 }

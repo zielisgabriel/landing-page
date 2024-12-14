@@ -1,0 +1,55 @@
+#my-work{
+    padding-top: 72px;
+    padding-bottom: 140px;
+    
+
+    &>div:nth-child(1){
+        text-align: center;
+        margin-bottom: 56px;
+
+        & h3{
+            font: var(--inconsolata-subtitle);
+            color: var(--red);
+            margin-bottom: 8px;
+        }
+
+        & h2{
+            font: var(--asap-title-md);
+            color: var(--gray-600);
+        }
+    }
+
+    & #cards-container{
+        display: grid;
+        grid-template-columns: repeat(3, 0fr);
+        gap: 24px;
+        justify-content: center;
+
+        & .card{
+            background-color: var(--gray-300);
+            padding: 12px;
+            border-radius: 8px;
+
+            & img{
+                width: 306px;
+                height: 156px;
+                object-fit: cover;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+
+            & .info{
+                & h1{
+                    font: var(--asap-title-sm);
+                    color: var(--gray-600);
+                    margin-bottom: 8px;
+                }
+
+                & p{
+                    font: var(--maven-text-sm);
+                    color: var(--gray-500);
+                }
+            }
+        }
+    }
+}
