@@ -1,0 +1,62 @@
+#contacts{
+    padding-block: 120px;
+
+    &>div{
+        text-align: center;
+        margin-bottom: 48px;
+
+        & h3{
+            font: var(--inconsolata-subtitle);
+            color: var(--red);
+        }
+        
+        & h2{
+            font: var(--asap-title-md);
+            color: var(--gray-600);
+        }
+
+        & p{
+            font: var(--maven-text-sm);
+            color: var(--gray-500);
+        }
+    }
+
+    & .contacts-cards-container{
+        max-width: 400px;
+        margin-inline: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        & li{
+            & a{
+                height: 68px;
+                display: flex;
+                justify-content: space-between;
+                padding: 20px;
+                background-color: var(--gray-300);
+                border-radius: 8px;
+
+                & div{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    & i{
+                        font-size: 28px;
+                        color: var(--gray-500);
+                    }
+
+                    & span{
+                        font: var(--asap-title-sm);
+                        color: var(--gray-500);
+                    }
+                }
+
+                &>i{
+                    color: var(--blue);
+                }
+            }
+        }
+    }
+}

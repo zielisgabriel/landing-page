@@ -41,10 +41,6 @@ html{
     scroll-padding: 600px;
 }
 
-.padding-inline-120px{
-    padding-inline: 120px;
-}
-
 li{
     list-style: none;
 }
@@ -54,15 +50,23 @@ a{
     color: inherit;
 }
 
+.padding-inline-120px{
+    padding-inline: 120px;
+}
+
 .banner{
     background-image: url(../assets/images/Background_Intro.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;
     padding-inline: 20px;
+    height: auto;
 }
 
 .background-standard{
     background-color: var(--gray-200);
+}
+
+.background-black{
+    background-color: var(--gray-100);
 }
