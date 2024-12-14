@@ -36,6 +36,11 @@
     --gray-600: #E2E4E9;
 }
 
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 600px;
+}
+
 .padding-inline-120px{
     padding-inline: 120px;
 }

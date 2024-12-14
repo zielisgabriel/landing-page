@@ -29,6 +29,11 @@
             background-color: var(--gray-300);
             padding: 12px;
             border-radius: 8px;
+            transition: .3s;
+
+            &:hover{
+                transform: translateY(-10px);
+            }
 
             & img{
                 width: 306px;

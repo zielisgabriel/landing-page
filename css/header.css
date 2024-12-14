@@ -22,7 +22,7 @@ header{
                 bottom: 0;
                 font-size: 30px;
                 color: var(--green);
-                text-shadow: -3px 2px 0px var(--gray-300);
+                text-shadow: -3px 2px 0px var(--gray-200);
             }
         
             & .user-picture{
@@ -109,13 +109,13 @@ header{
 
 @keyframes float-arrow{
     0%{
-        transform: translateY(0px);
+        transform: translate(-50%, 0px);
     }
     60%{
-        transform: translateY(-10px);
+        transform: translate(-50%, 10px);
     }
     100%{
-        transform: translateY(0px);
+        transform: translate(-50%, 0px);
     }
 }
 
