@@ -7,12 +7,14 @@
 
         & h3{
             font: var(--inconsolata-subtitle);
-            color: var(--red);
+            color: var(--purple);
+            margin-bottom: 8px;
         }
         
         & h2{
             font: var(--asap-title-md);
             color: var(--gray-600);
+            margin-bottom: 8px;
         }
 
         & p{
@@ -36,6 +38,12 @@
                 padding: 20px;
                 background-color: var(--gray-300);
                 border-radius: 8px;
+                transition: .2s;
+                border: 0px solid var(--gray-300);
+
+                &:hover{
+                    transform: translateY(-5px);
+                }
 
                 & div{
                     display: flex;
@@ -45,16 +53,80 @@
                     & i{
                         font-size: 28px;
                         color: var(--gray-500);
+                        transition: .2s;
                     }
 
                     & span{
                         font: var(--asap-title-sm);
                         color: var(--gray-500);
+                        transition: .2s;
                     }
                 }
 
                 &>i{
                     color: var(--blue);
+                }
+            }
+        }
+
+        &>li:nth-child(1){
+            & a{
+                &:hover{
+                    border: 2px solid var(--blue);
+                }
+
+                &:hover i{
+                    color: var(--blue);
+                }
+
+                &:hover span{
+                    color: var(--blue);
+                }
+            }
+        }
+
+        &>li:nth-child(2){
+            & a{
+                &:hover{
+                    border: 2px solid var(--purple);
+                }
+
+                &:hover i{
+                    color: var(--purple);
+                }
+
+                &:hover span{
+                    color: var(--purple);
+                }
+            }
+        }
+        &>li:nth-child(3){
+            & a{
+                &:hover{
+                    border: 2px solid #FFFFFF;
+                }
+
+                &:hover i{
+                    color: #FFFFFF;
+                }
+
+                &:hover span{
+                    color: #FFFFFF;
+                }
+            }
+        }
+        &>li:nth-child(4){
+            & a{
+                &:hover{
+                    border: 2px solid var(--yellow);
+                }
+
+                &:hover i{
+                    color: var(--yellow);
+                }
+
+                &:hover span{
+                    color: var(--yellow);
                 }
             }
         }

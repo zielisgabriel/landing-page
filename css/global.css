@@ -41,6 +41,21 @@ html{
     scroll-padding: 600px;
 }
 
+body{
+    &::-webkit-scrollbar{
+        width: 5px;
+    }
+    
+    &::-webkit-scrollbar-track{
+        background-color: var(--gray-100);
+    }
+    
+    &::-webkit-scrollbar-thumb{
+        background-color: var(--gray-300);
+        border-radius: 8px;
+    }
+}
+
 li{
     list-style: none;
 }
