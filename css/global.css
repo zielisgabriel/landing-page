@@ -5,22 +5,50 @@
 }
 
 :root{
-        /* FONTES */
+        /* FONTS */
     /* Asap */
     --asap: "Asap", sans-serif;
-    --asap-title-lg: bold 56px/120% var(--asap);
+    --asap-title-lg: 750 56px/120% var(--asap);
     --asap-title-md: bold 24px/120% var(--asap);
     --asap-title-sm: bold 16px/120% var(--asap);
     /* Inconsolata */
     --inconsolata: "Inconsolata", monospace;
-    --subtitle: 20px/120% var(--inconsolata);
+    --inconsolata-subtitle: 20px/120% var(--inconsolata);
     /* Maven Pro */
     --maven-pro: "Maven Pro", sans-serif;
     --maven-text-md: 16px/140% var(--maven-pro);
     --maven-text-sm: 14px/140% var(--maven-pro);
 
+
+        /* COLORS */
+    /* Main */
+    --red: #E3646E;
+    --purple: #BB72E9;
+    --blue: #3996DB;
+    --green: #82BC4F;
+    --yellow: #EABD5F;
+    /* Base */
+    --gray-100: #0D0E11;
+    --gray-200: #16181D;
+    --gray-300: #292C34;
+    --gray-400: #878EA1;
+    --gray-500: #C0C4CE;
+    --gray-600: #E2E4E9;
 }
 
-body{
-    font-family: var(--font-family);
+.padding-inline-120px{
+    padding-inline: 120px;
+}
+
+li{
+    list-style: none;
+}
+
+.banner{
+    background-image: url(../assets/images/Background_Intro.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding-inline: 20px;
 }
